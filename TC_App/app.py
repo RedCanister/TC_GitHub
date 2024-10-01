@@ -16,7 +16,8 @@ user_input = st.sidebar.text_input('Digite seu nome')
 
 st.write(f'Usuário: {user_input}')
 
-language1 = ['TypeScript', 'Python', 'JavaScript', 'Shell', 'Batchfile', 'MATLAB', 'Java', 'Groovy', 'Zig', 'HCL', 'Lua', 'Liquid', 'Rust', 'HTML', 'CSS', 'PHP', 
+language1 = ['TypeScript', 'Python', 'JavaScript', 'Shell', 'Batchfile', 
+ 'MATLAB', 'Java', 'Groovy', 'Zig', 'HCL', 'Lua', 'Liquid', 'Rust', 'HTML', 'CSS', 'PHP', 
  'Solidity', 'Vue', 'R', 'Markdown', 'Ruby', 'Mustache', 'C++', 'Go', 'C#'
  'PowerShell', 'Svelte', 'CMake', 'Smarty', 'Jupyter Notebook', 'Nix', 'JSON', 
  'Starlark', 'C', 'Dart', 'Scala', 'Kotlin', 'SCSS', 'Haskell', 'SystemVerilog', 
@@ -76,8 +77,6 @@ def get_user_data():
     language_2 = st.sidebar.selectbox('Selecione a linguagem 2:', language2)
     language_3 = st.sidebar.selectbox('Selecione a linguagem 3:', language3)
 
-    
-    
 
     user_data = {
         'event_watchs': event_watchs,
@@ -119,7 +118,6 @@ st.write(user_input_variables)
 # Carregar o modelo salvo com pickle
 with open('pipeline_modelo_definitivo.pkl', 'rb') as file:
     dtc = pickle.load(file)
-
 
 #Previsao
 prediction = dtc.predict(user_input_variables)
