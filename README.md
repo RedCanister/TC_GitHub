@@ -15,6 +15,8 @@ Escolhemos o modelo de Árvore de Decisão, pois foi a mesma que melhor performo
 
 A idéia inicial para esse Tech Challenge era de criar um dashboard que descreveria uma previsão ao longo do tempo das próximas ações de cada usuário que fosse registrado na API de eventos, mas essa versão acabou sendo complicada para o escopo do exercício.
 
+Vocês podem saber mais sobre a API do Github aqui: https://docs.github.com/pt/rest?apiVersion=2022-11-28
+
 
 ## Contribuidores
 
@@ -66,9 +68,11 @@ A idéia inicial para esse Tech Challenge era de criar um dashboard que descreve
 
 
 # Gráficos
-[Gráfico da acurácio do 1º modelo]([Images/Curvas de Aprendizado 40k.png])
 
-[Gráfico da acurácio do melhor modelo]([Images/Curvas de Aprendizado k.png])
+![Gráficos da acurácia do modelo inicial com 40k registros](https://github.com/user-attachments/assets/4eb4ba2f-7245-4f27-8d78-81210001675f)
+
+![Gráficos da acurácia do modelo inicial com 1k registros](https://github.com/user-attachments/assets/07d6da2d-5d64-4661-b583-b79509b037c3)
+
 
 # Vídeo de apresentação
 
