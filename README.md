@@ -2,6 +2,7 @@
 
 TC_Github é um projeto que utiliza dados da API do GitHub para realizar a classificação dos repositórios públicos (de forma aleatória) , e que depois os usa como referência para uma previsão sobre o número de estrelas de cada repositório através de um app feito com o streamlit.
 
+
 ## Descrição
 
 No desenvolvimento desse projeto, utilizando a linguagem Python nós começamos realizando a análise de dados da API de eventos do GitHub que alimenta um aplicativo interativo onde o usuário tem a capacidade de definir os dados gerais do seu, ou do repositório do Github de outro usuário, e baseado nisso, prever quantas estrelas esse repositório conseguiria ao longo do tempo (como estrelas em potencial, baseado na classificação de outros repositório criados e que possuem um número de estrelas em potencial). 
@@ -14,10 +15,12 @@ Escolhemos o modelo de Árvore de Decisão, pois foi a mesma que melhor performo
 
 A idéia inicial para esse Tech Challenge era de criar um dashboard que descreveria uma previsão ao longo do tempo das próximas ações de cada usuário que fosse registrado na API de eventos, mas essa versão acabou sendo complicada para o escopo do exercício.
 
+
 ## Contribuidores
 
 - Octavio Ruiz Thomas
 - Jorge Kayodê Lima Trindade
+
 
 ## Instalação
 
@@ -61,10 +64,11 @@ A idéia inicial para esse Tech Challenge era de criar um dashboard que descreve
    streamlit run app.py
    ```
 
-# Gráficos
-[Gráfico da acurácio do 1º modelo]([Images/Curvas de Aprendizado 40k.png](https://github.com/RedCanister/TC_GitHub/blob/main/Images/Curvas%20de%20Aprendizado%2040k.png)
 
-[Gráfico da acurácio do melhor modelo]([Images/Curvas de Aprendizado k.png](https://github.com/RedCanister/TC_GitHub/blob/main/Images/Curvas%20de%20Aprendizado%20K.png)
+# Gráficos
+[Gráfico da acurácio do 1º modelo]([Images/Curvas de Aprendizado 40k.png])
+
+[Gráfico da acurácio do melhor modelo]([Images/Curvas de Aprendizado k.png])
 
 # Vídeo de apresentação
 
