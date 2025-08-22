@@ -75,4 +75,5 @@ Vocês podem saber mais sobre a API do Github aqui: https://docs.github.com/pt/r
 
 
 # Vídeo de apresentação
-![MLET1 - Fase 3](https://youtu.be/E_NVZXBxI_s)
+[Vídeo de demonstração](https://youtu.be/E_NVZXBxI_s)
+
